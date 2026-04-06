@@ -63,11 +63,15 @@ mininet> pingall                    # Full recovery confirmation
   ```
 
 3) STP reconvergence 
+   ```
    DESIGNATED_PORT / LISTEN → BLOCK → FORWARD
    Backup path (s1→s3→s4) becomes active
-
+   ```
+   
 4) Connectivity recovery
-   ```[  5.0Kbits/sec]  [   <=  =>]  0.00-5.00  sec  16.6 GBytes  16.1 Gbits/sec```
+   ```
+   [  5.0Kbits/sec]  [   <=  =>]  0.00-5.00  sec  16.6 GBytes  16.1 Gbits/sec
+   ```
 
 ## References
 Ryu STP Documentation
