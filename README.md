@@ -21,24 +21,24 @@ This project implements an SDN controller using Ryu's STP (Spanning Tree Protoco
 
 ## Setup & Execution
 
-## Prerequisites
+# Prerequisites
 # Mininet
 
 # Ryu controller (Python 3.9+ environment)
 
 # Open vSwitch with OpenFlow 1.3
 
-## Start Controller
+# Start Controller
 ```bash
 ryu-manager controller.py
 ```
 
-## Start Mininet 
+# Start Mininet 
 ```bash
 sudo mn --custom topo.py --topo diamond --controller remote --switch ovsk,protocols=OpenFlow13
 ```
 
-## Test sequence 
+# Test sequence 
 ```
 mininet> pingall                    # Baseline: 0% packet loss
 mininet> h1 ping h2                 # Continuous ping (keep running)
