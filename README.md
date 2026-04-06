@@ -22,11 +22,11 @@ This project implements an SDN controller using Ryu's STP (Spanning Tree Protoco
 ## Setup & Execution
 
 # Prerequisites
-# Mininet
-
-# Ryu controller (Python 3.9+ environment)
-
-# Open vSwitch with OpenFlow 1.3
+ Mininet
+ 
+ Ryu controller (Python 3.9+ environment)
+ 
+ Open vSwitch with OpenFlow 1.3
 
 # Start Controller
 ```bash
