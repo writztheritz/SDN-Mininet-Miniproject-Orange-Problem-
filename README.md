@@ -102,7 +102,7 @@ Screenshots - Complete failure/recovery demo sequence
    ![terchange](output_screenshots/terminal1change.png)
    
 6) Post recovery
-   ![recovery](output_screenshots/linkupandtest.png)
+   ![recovery](output_screenshots/linkdowntest.png)
    
 7) Exit
    ![exit1](output_screenshots/iperfandexit.png)
